@@ -4,7 +4,7 @@ Write-Host "$name"
 
 
 <#
-*************** Project-1 ***************
+*************** Project-1 ******************
 #>
 
 # prompt the user for folder name, custom message, and get current date

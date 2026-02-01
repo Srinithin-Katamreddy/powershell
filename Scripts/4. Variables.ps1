@@ -19,7 +19,7 @@ $myfile1
 
 
 
-##################################### Another Project ######################
+##################################### Another Project #####################
 # Variable setup
 $dir = "My_Directory"
 $file = "config.txt"

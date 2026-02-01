@@ -1,4 +1,4 @@
-#Displaying Today's Date
+# Displaying Today's Date
 
 Write-Host "Todays date is:"
 Get-Date # Sunday, February 1, 2026 2:02:26 PM

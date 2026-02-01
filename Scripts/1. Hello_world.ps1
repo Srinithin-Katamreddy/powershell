@@ -1,3 +1,7 @@
+# Comments
+<#
+Multi line commenting
+#>
 write-Host "Hello world!! I am laerning powershell"
 write-Host "Hii Guys! My name is srinithin"
 
