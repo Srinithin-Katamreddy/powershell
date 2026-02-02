@@ -17,3 +17,45 @@ Example use cases:
 - Collect logs
 - Incident response (Blue Team)
 - Post-exploitation automation (Red/Purple Team)
+
+
+Cmdlets in PowerShell
+--------------------------
+Small, single-purpose commands used in PowerShell to perform specific tasks.
+They are the building blocks of PowerShell.
+
+They always follws the below pattern
+Verb-noun
+
+Verb → action (Get, Set, New, Remove, Start, Stop)
+Noun → object (Process, Service, User, File, EventLog)
+
+Examples:
+Get-Process
+Get-Service
+Start-Service
+Stop-Process
+Get-EventLog
+
+
+Cmdlets with Pipeline
+---------------------------
+Cmdlets shine when combined using | (pipe):
+
+ex:
+Get-Process | Where-Object CPU -gt 2
+
+
+
+
+
+Parameters in PowerShell (PS)
+-------------------------------
+Parameters are options or inputs you pass to a cmdlet to control its behavior or output.
+They usually start with a dash (-).
+
+Syntax: Cmdlet-Name -ParameterName Value
+
+Get-Process -Name chrome
+Get-Process -Name chrome -FileVersionInfo
+
