@@ -20,3 +20,32 @@ if($userinput -match '^\d+$'){
 else{
     Write-Host "Its not a number"
 }
+
+
+
+
+<#
+******************* Project-2 *******************
+#>
+
+# Prompt the user for the date
+$userdate = Read-Host "Enter the date in the yyyy-MM-DD format"
+
+#checking the user entered the date in the correct format or not
+if($userdate -as [String]){
+    Write-Host "Good Job You entered a string"
+
+    # using a wild card Pattern to check input matches yyyy-mm-dd format
+    # ???? represents any four charcters (for the year)
+    # ?? represents any two characters (for the month and day)
+
+    if($userdate -like "????-??-??"){
+        Write-Host "Fanstastic!! Correct Format"
+    }
+    else{
+        Write-Host "Change Format to yyyy-mm-dd"
+    }
+}
+else{
+    Write-Host "OOPS!! Try again"
+}
