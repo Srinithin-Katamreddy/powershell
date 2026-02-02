@@ -4,3 +4,16 @@
 
 
 
+PowerShell is a powerful command-line shell and scripting language developed by Microsoft for automation, system administration, and configuration management.
+
+- Built on .NET
+- Works with objects (not just text)
+- Used to manage Windows, Linux, cloud (AWS/Azure), Active Directory, services, files, processes
+- Supports scripting (.ps1) for automation
+
+Example use cases:
+- Create users in Active Directory
+- Automate patching
+- Collect logs
+- Incident response (Blue Team)
+- Post-exploitation automation (Red/Purple Team)
