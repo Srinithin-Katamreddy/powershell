@@ -2,14 +2,14 @@
 Set-location E:
 
 #Create a new directory 
-New-Item 'E:\Powershell\Folder1\Folder1' -ItemType Directory
+New-Item 'E:\Powershell\Folder1\Sri' -ItemType Directory
 
 # Creating a text file
-New-Item -path 'E:\Powershell\Folder1\Folder1\textfile.txt' -ItemType File
+New-Item -path 'E:\Powershell\Folder1\Sri\textfile.txt' -ItemType File
 
 # Add content to file
-Add-Content -Path "E:\Powershell\Folder1\Folder1\textfile.txt" -value "..........................`nI am adding the content using the powershell. `nPowershell is very easy to laern. `n........................................."
+Add-Content -Path "E:\Powershell\Folder1\Sri\textfile.txt" -value "..........................`nI am adding the content using the powershell. `nPowershell is very easy to laern. `n........................................."
 
 #verifying the text
-Get-childItem E:\Powershell\Folder1\Folder1
-get-content "E:\Powershell\Folder1\Folder1\textfile.txt"
+Get-childItem E:\Powershell\Folder1\Sri
+get-content "E:\Powershell\Folder1\Sri\textfile.txt"

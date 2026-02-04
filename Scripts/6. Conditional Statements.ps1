@@ -35,7 +35,7 @@ else {
 #>
 
 # Getting the free space in GB of E drive
-$freespace = (Get-cimInstance -classname Win32_LogicalDisk | Where-Object DeviceID -EQ 'E:').FreeSpace / 1GB
+$freespace = (Get-cimInstance -classname Win32_LogicalDisk | Where-Object DeviceID -EQ 'c:').FreeSpace / 1GB
 
 # Check the free space & provide appropriate message
 if ($freespace -gt 50){

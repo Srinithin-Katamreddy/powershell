@@ -12,10 +12,10 @@ Get-content -path $myfile
 
 
 # Add a timestamp to thje name of our file
-$time = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
-$myfile1 = "E:\Powershell\Folder1\Folder2\textfile.txt_$time"
-$myfile1
+$time = Get-Date -Format "yyyy-MM-dd_HH:mm:ss"
+$myfile1 = "E:\Powershell\Folder1\Folder2\textfile_$time.txt"
 
+Write-Host "$myfile`n$myfile1"
 
 
 

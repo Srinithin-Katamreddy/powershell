@@ -27,5 +27,5 @@ Add-Content -Path "E:\$appdir\config.txt" -Value "configuration for $appname `nC
 #>
 
 #verify the things
-Get-childItem $appdir
-Get-content "$appdir\config.txt"
+Get-childItem "E:\$appdir"
+Get-content "E:\$appdir\config.txt"
